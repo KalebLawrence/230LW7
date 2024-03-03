@@ -16,13 +16,13 @@ function App() {
 
         <div className="row justify-content-center">
           <div className="col">
-            <Card type="primary" />
+            <Card title="Card 01" color="primary" />
           </div>
           <div className="col">
-            <Card type="success" />
+            <Card title="Card 02" color="success" />
           </div>
           <div className="col">
-            <Card type="danger" />
+            <Card title="Card 03" color="danger" />
           </div>
         </div>
       </div>
