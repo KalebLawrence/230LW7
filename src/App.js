@@ -1,30 +1,31 @@
 import React from 'react';
-import Navbar from './navbar'; // Import the Navbar component
-import Card from './Card'; // Import the Card component
+import Navbar from './navbar';
+import Card from './Card';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar /> {/* Render the Navbar component */}
+      <Navbar />
       <div className="container">
-        <div className="row">
+        <h1>CS 230L</h1>
+        <h2>Section - 02</h2>
+        <p>WVU ID: 800385575</p>
+        <p>Hi, I am Kaleb Lawrence</p>
+
+        <div className="row justify-content-center">
           <div className="col">
-            <Card /> {/* Render the Card component */}
+            <Card type="primary" />
           </div>
           <div className="col">
-            <Card /> {/* Render another instance of the Card component */}
+            <Card type="success" />
           </div>
           <div className="col">
-            <Card /> {/* Render another instance of the Card component */}
+            <Card type="danger" />
           </div>
         </div>
       </div>
-      <h1>CS 230L</h1>
-      <h2>Section - 02</h2>
-      <p>WVU ID: 800385575</p>
-      <p>Hi, I am Kaleb Lawrence</p>
     </div>
   );
 }
